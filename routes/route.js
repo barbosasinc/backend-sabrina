@@ -130,6 +130,7 @@ router.post('/logout', (req, res) => {
 
 // GET /user - return current logged-in user
 router.get('/user', (req, res) => {
+    console.log('Fetching current user', req.session.user);
     if (req.session && req.session.user) {
         return res.json({ username: req.session.user.usuario });
     }

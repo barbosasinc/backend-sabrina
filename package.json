@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/barbosasinc/backend-model.git"
+  },
+  "author": "beardking",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbosasinc/backend-model/issues"
+  },
+  "homepage": "https://github.com/barbosasinc/backend-model#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.3.0",
+    "bcrypt": "^5.1.0",
+    "express-session": "^1.17.3"
+  }
+}
